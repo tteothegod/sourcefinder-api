@@ -87,8 +87,8 @@ bool SourceRetriever::parseReferences() {
     return output;
 }
 
+////////* Random Functions *////////
 void SourceRetriever::print(const SourceData& componentVector, const std::string& componentName) {
-    ////////* Random Functions *////////
     for(int i = 0; i < componentVector.size(); i++) {
         const std::vector<std::vector<std::string>>& element = componentVector[i];
         std::cout << componentName << i + 1 << std::endl;
